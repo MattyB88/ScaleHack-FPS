@@ -1,18 +1,17 @@
-# ScaleHack FPS
+# ScaleHack FPS — Playable Combat Demo
 
-Moddable browser FPS designed to be hacked and cheated.
+Browser FPS with movement, shooting, reload, and AI opponents that chase and return fire.
 
-Base character starts with no abilities. Inject JavaScript scripts to unlock movement, powers, and size changes.
+## Controls
+- WASD: Move
+- Mouse: Look
+- Left Click: Shoot
+- R: Reload
+- Space: Jump
 
-**Size is the primary constraint.**
-- Micro players (0.2x): agile, can hide and swarm, fragile
-- Normal (1x): standard
-- Giants (4-8x): slow, can crush smaller entities, different perspective
+## Goal
+Eliminate all AI opponents.
 
-## Play
-Open `index.html` in a modern browser. Click to play, then inject an example script.
+Open `index.html` in a modern browser and click to play.
 
-## Collaboration
-This repo is set up so we can iterate. Describe features or push changes.
-
-Built with Three.js.
+This is a self-contained Three.js prototype. Further polish, assets, and features can be iterated here.
